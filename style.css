@@ -1,0 +1,20 @@
+div {
+    width: 100%;
+    max-width: 200px;
+    height: 100px;
+    border: 15px solid  yellowgreen;
+    margin: 15px 0px 15px 350px;
+    font-size: 12px;
+    font-weight: 600;
+    font-family: "roboto", sans-serif;
+}
+.red {
+    color: red;
+}
+.blue { color: blue;
+}
+
+#title {
+    font-weight: 600 bold;
+    color: purple
+}
