@@ -73,4 +73,28 @@ div { height: 200px;
 /* uncommon positions
 1. Fixed - Stick element to a permanent location on the page
 - Lets you use top, left, bottom, right
-2. Sticky - sticks elements to a permanent locattion on the page once it hits a threshhold
+2. Sticky - sticks elements to a permanent locattion on the page once it hits a threshhold */
+
+.mediaqueries {
+    background-color: blue;
+    color: white;
+    font-size: 25px
+}
+
+@media (max-width: 992px) {
+    .mediaqueries {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 576px) {
+    .mediaqueries {
+        font-size: 16px;
+    }
+}
+
+/* Media Queries: Common breakpoints (max-width)
+Mobile phones: 576px
+Tablets: 768px
+Desktops: 992px
+Large Desktops: 1200px+
