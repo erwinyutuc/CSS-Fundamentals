@@ -97,4 +97,44 @@ div { height: 200px;
 Mobile phones: 576px
 Tablets: 768px
 Desktops: 992px
-Large Desktops: 1200px+
+Large Desktops: 1200px+ */
+
+#welcome {
+    transition: background-color 300ms;
+}
+
+#welcome:hover {
+    background-color: rgb(0, 0, 0, 0.5);
+}
+
+button {
+    animation: float 2000ms infinite alternate-reverse;
+    transition: all 300ms;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0)
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
+
+.nav_link {
+    color: black;
+}
+.nav_link--active {
+    color: purple;
+    font-weight: bold;
+}
+
+/* BEM - Block-Element-Modifier: naming convention used for CSS classes to make them easier to read & understand
+- B [Block]   block component
+- E [Element] Dependant on the block component
+- M [Modifier] Used to change the style of the black
